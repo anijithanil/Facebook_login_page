@@ -1,0 +1,89 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fefefe4f;
+}
+.content {
+    width: 1024px;
+    margin: 0px auto;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.heading {
+    width: 60%;
+}
+.heading img {
+    width: 320px;
+}
+.heading h2 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    margin-left: 26px;
+    text-align: left;
+    margin-right: 90px;
+    font-size: 26px;
+    font-weight: lighter;
+}
+.login-box {
+    width: 40%;
+    padding-top: 110px;
+}
+.login-box .box {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #14141441;
+    padding: 40px 14px;
+    width: 340px;
+    height: 322px;
+    border-radius: 6px;
+    padding: 15px 10px 20px 10px;
+}
+.box input {
+    width: 100%;
+    margin-top: 0px;
+    padding: 14px 17px;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(161, 161, 161, 0.5);
+    
+}
+.box input:hover {
+    border: 1px solid rgba(4, 13, 195, 0.5);
+}
+.btn {
+    background: #1877F2;
+    color: #ffffff;
+    font-weight: bold;
+}
+.box a {
+    text-decoration: none;
+    margin: 0px 99px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.forgot-psw {
+    text-align: center;
+}
+.line {
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(130, 127, 127, 0.249);
+}
+button {
+    padding: 12px 14px;
+    background-color: #42B72A;
+    color: whitesmoke;
+    border-radius: 6px;
+    margin-top: 16px;
+    font-weight: bold;
+    border: none;
+
+}
+.btn-new-ac {
+    text-align: center;
+}
